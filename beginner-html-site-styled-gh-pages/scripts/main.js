@@ -27,7 +27,7 @@ let myHeading = document.querySelector('h1');
 function setUserName() {
   let myName = prompt("Enter name: ");
   if(!myName || myName === null) {
-    setUserName();
+    myHeading.textContent = 'Mozilla is cool, no name'
   } else {
     localStorage.setItem('name', myName);
     myHeading.textContent = 'Mozilla is cool, ' + myName;
