@@ -1,0 +1,15 @@
+/*
+CSS sheet for javascript clock
+*/
+body {
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+
+.clock {
+  text-align: center;
+  margin: 0 auto;
+  width: 30%;
+  font-family: Ubuntu, Open Sans, sans-serif;
+  font-size: 42px;
+  border: solid;
+}
