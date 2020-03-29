@@ -1,5 +1,6 @@
 /*
 * clock javascript
+* code adapted from https://codepen.io/afarrar/pen/JRaEjP
 */
 "use strict";
 
