@@ -12,15 +12,21 @@ body {
 
 .clock {
   text-align: center;
-  margin: 0px auto;
+  margin: 3px;
   width: 30%;
   font-size: 42px;
   border: solid;
 }
 
-.img_div {
-  margin: 0 auto;
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_content {
   display: inline-block;
   border: solid;
-  height: 60%;
+  max-width: 40%;
 }
