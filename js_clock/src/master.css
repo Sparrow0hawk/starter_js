@@ -1,15 +1,26 @@
 /*
 CSS sheet for javascript clock
 */
+
+h1 {
+  text-align: center;
+}
 body {
+  font-family: Ubuntu, Open Sans, sans-serif;
   background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
 }
 
 .clock {
   text-align: center;
-  margin: 0 auto;
+  margin: 0px auto;
   width: 30%;
-  font-family: Ubuntu, Open Sans, sans-serif;
   font-size: 42px;
   border: solid;
+}
+
+.img_div {
+  margin: 0 auto;
+  display: inline-block;
+  border: solid;
+  height: 60%;
 }
